@@ -1446,11 +1446,6 @@ a:hover {
   padding-top: 20px;
 }
 
-.clients img {
-  max-width: 10%;
-  height: auto;
-}
-
 .clients .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
