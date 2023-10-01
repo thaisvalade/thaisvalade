@@ -824,21 +824,21 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about-mf .box-shadow-full {
+.about-tv .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-.about-mf .about-img {
+.about-tv .about-img {
   margin-bottom: 2rem;
 }
 
-.about-mf .about-img img {
+.about-tv .about-img img {
   margin-left: 10px;
 }
 
 @media (min-width: 767px) {
-  .about-mf .box-pl2 {
+  .about-tv .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
   }
@@ -1435,23 +1435,6 @@ a:hover {
 
 .widget-tags ul li a {
   color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Achievements
---------------------------------------------------------------*/
-.achievement {
-  margin-top: 40px;
-}
-
-.achievement .achievement-item {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.achievement .achievement-item img {
-  transition: 0.3s;
 }
 
 
