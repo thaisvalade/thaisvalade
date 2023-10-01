@@ -56,7 +56,7 @@ a:hover {
 .box-shadow,
 .card-blog,
 .work-box,
-.service-box,
+.domain-box,
 .paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
@@ -844,26 +844,10 @@ a:hover {
   }
 }
 
-.skill-mf span {
-  color: #4e4e4e;
-}
-
-.skill-mf .progress {
-  background-color: #cde1f8;
-  margin: 0.5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: 0.7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: 0.7rem;
-  background-color: #fbabab;
-}
-
 /*--------------------------------------------------------------
-# Services
+# Domains
 --------------------------------------------------------------*/
-.service-box {
+.domain-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
@@ -871,38 +855,38 @@ a:hover {
   text-align: center;
 }
 
-.service-box:hover .ico-circle {
+.domain-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
   background-color: #fbabab;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
-.service-box .service-ico {
+.domain-box .domain-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
 }
 
-.service-box .ico-circle {
+.domain-box .ico-circle {
   transition: all 500ms ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
-.service-box .ico-circle i {
+.domain-box .ico-circle i {
   line-height: 0;
   font-size: 40px;
 }
 
-.service-box .s-title {
+.domain-box .s-title {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
   padding: 0.4rem 0;
 }
 
-.service-box .s-description {
+.domain-box .s-description {
   color: #4e4e4e;
 }
 
