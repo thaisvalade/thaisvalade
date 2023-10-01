@@ -1440,24 +1440,18 @@ a:hover {
 /*--------------------------------------------------------------
 # Achievements
 --------------------------------------------------------------*/
-.achievement-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.achievement {
+  margin-top: 40px;
 }
 
-.achievement-mf .achievement-img {
-  margin-bottom: 2rem;
+.achievement .achievement-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
-.achievement-mf .achievement-img img {
-  margin-left: 10px;
-}
-
-@media (min-width: 767px) {
-  .achievement-mf .box-pl2 {
-    margin-top: 3rem;
-    padding-left: 0rem;
-  }
+.achievement .achievement-item img {
+  transition: 0.3s;
 }
 
 
