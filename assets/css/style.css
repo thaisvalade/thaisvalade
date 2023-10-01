@@ -922,6 +922,8 @@ a:hover {
 
 .counter-ico {
   margin-bottom: 1rem;
+  height: 60px;
+  width: 60px;
 }
 
 .counter-ico .ico-circle {
