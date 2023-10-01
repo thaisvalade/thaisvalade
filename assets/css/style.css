@@ -1440,10 +1440,26 @@ a:hover {
 /*--------------------------------------------------------------
 # Achievements
 --------------------------------------------------------------*/
-.achievement img {
-  width: 80px;
-  height: 80px;
+.achievement-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
+
+.achievement-mf .achievement-img {
+  margin-bottom: 2rem;
+}
+
+.achievement-mf .achievement-img img {
+  margin-left: 10px;
+}
+
+@media (min-width: 767px) {
+  .achievement-mf .box-pl2 {
+    margin-top: 3rem;
+    padding-left: 0rem;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Clients
